@@ -1,0 +1,8 @@
+// THIS IS TO RUN TESTS IN ES6 Import/Export (transform)
+{
+  "env": {
+    "test": {
+      "plugins": ["@babel/plugin-transform-modules-commonjs"]
+    }
+  }
+}

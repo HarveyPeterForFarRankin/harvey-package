@@ -1,1 +1,1 @@
-export const toLower = message => message.toLowerCase();
+export const toUpper = message => message.toUpperCase();

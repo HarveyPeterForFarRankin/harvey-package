@@ -1,3 +1,3 @@
-import { toLower } from './utils/transformMessage';
+import { toUpper } from './utils/transformMessage';
 
-export const returnMessage = message => toLower(message);
+export const returnMessage = message => toUpper(message);

@@ -3,3 +3,8 @@ src
 webpack.config.js
 
 .np-config.json
+
+jest.config.js
+
+.babelrc
+
