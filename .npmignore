@@ -1,4 +1,5 @@
 src
 
-webpack.config.json
+webpack.config.js
 
+.np-config.json
