@@ -1,6 +1,6 @@
 {
-  "name": "harvey_package",
-  "version": "1.4.0",
+  "name": "harvey_package_test",
+  "version": "1.0.0",
   "description": "package test",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
