@@ -1,3 +1,5 @@
-import { toUpper } from './utils/transformMessage';
+import { toUpper } from './utils/transformMessage'
 
-export const returnMessage = message => toUpper(message);
+const returnMessage = (message) => toUpper(message)
+
+export default returnMessage

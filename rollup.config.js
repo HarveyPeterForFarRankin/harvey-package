@@ -1,7 +1,8 @@
-import pkg from './package.json';
-const extensions = ['.js'];
 import resolve from '@rollup/plugin-node-resolve';
 import { babel } from '@rollup/plugin-babel';
+import pkg from './package.json';
+
+const extensions = ['.js'];
 
 export default [
   // CommonJS (for Node) and ES module (for bundlers) build.
@@ -19,7 +20,7 @@ export default [
     ],
     plugins: [
       resolve({
-        extensions, //specifies the extensions of files that the plugin will operate on
+        extensions, // specifies the extensions of files that the plugin will operate on
       }),
       babel({ exclude: 'node_modules/**' }),
     ],
