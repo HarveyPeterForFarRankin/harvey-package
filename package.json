@@ -1,5 +1,5 @@
 {
-    "name": "harvey_package",
+    "name": "harvey_package_tester",
     "version": "1.0.0",
     "description": "package test",
     "main": "dist/index.cjs.js",
