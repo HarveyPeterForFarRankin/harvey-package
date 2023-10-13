@@ -1,5 +1,5 @@
 {
-    "name": "harvey_package_tester",
+    "name": "harvey-package",
     "version": "1.1.0",
     "description": "package test",
     "main": "dist/index.cjs.js",
@@ -9,7 +9,7 @@
     },
     "scripts": {
         "build": "rollup -c --bundleConfigAsCjs",
-        "release": "np",
+        "release": "npm run build && np",
         "test": "jest",
         "lint": "eslint .  --ext .js",
         "lint-fix": "eslint --fix .  --ext .js"
