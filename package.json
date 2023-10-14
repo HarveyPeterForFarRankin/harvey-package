@@ -9,7 +9,7 @@
     },
     "scripts": {
         "build": "rollup -c --bundleConfigAsCjs",
-        "release": "npm run build && np",
+        "release": "np",
         "test": "jest",
         "lint": "eslint .  --ext .js",
         "lint-fix": "eslint --fix .  --ext .js"
